@@ -6,7 +6,7 @@ pip install round2
 
 Since python's default round function uses 'bankers rounding', I made this small module that uses 'commercial rounding' instead. This means half is rounded up for positive numbers and down for negative numbers:
 
-```
+```python
 >>> from round2 import round2
 >>> round2(1.5)
 2
